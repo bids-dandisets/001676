@@ -65,8 +65,70 @@ contributor:
   - dcite:Author
   - dcite:ProjectLeader
   - dcite:Supervision
+  - dcite:ContactPerson
   schemaKey: Person
   url: https://peyrachelab.com
+- awardNumber: '155957'
+  identifier: https://ror.org/01gavpb45
+  name: CIHR Project Grant
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '180330'
+  identifier: https://ror.org/01gavpb45
+  name: CIHR Project Grant
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: RGPIN-2018-04600
+  identifier: https://ror.org/01h531d29
+  name: NSERC Discovery Grant
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 108877-001
+  identifier: https://ror.org/01gavpb45
+  includeInCitation: false
+  name: Canada-Israel Health Research Initiative
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 108877-001
+  identifier: https://ror.org/04sazxf24
+  name: Canada-Israel Health Research Initiative
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 108877-001
+  identifier: https://ror.org/0445x0472
+  name: Canada-Israel Health Research Initiative
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 108877-001
+  identifier: https://ror.org/009svts64
+  name: Canada-Israel Health Research Initiative
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 1c-II-15
+  identifier: https://ror.org/01pxwe438
+  name: Healthy Brains for Healthy Lives Innovative Ideas grant
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: CGV-180719
+  identifier: https://ror.org/01gavpb45
+  name: Vanier Canada Graduate Scholarships
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: NFRFE-2021-00926
+  identifier: https://ror.org/04j5jqy92
+  name: New Frontiers in Research Fund Exploration grant
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-12-01T16:54:50.900169+00:00'
 description: 'This Dandiset includes longitudinal 1-photon imaging (UCLA miniscope)
   recordings in the Postsubiculum of freely-moving mice. All sessions are part of
