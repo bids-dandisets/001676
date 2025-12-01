@@ -3,8 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
-about:
-- {}
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -12,18 +11,62 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Skromne Carrasco, Sofia (2025) Months-long stability of the head-direction
-  system (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001676/draft
+citation: Skromne Carrasco, Sofia; Viejo, Guillaume; Peyrache, Adrien (2025) Months-long
+  stability of the head-direction system (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001676/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/01pxwe438
+    name: McGill University
+    schemaKey: Affiliation
   email: sofia.skromnecarrasco@mail.mcgill.ca
+  identifier: 0009-0007-2288-7203
   includeInCitation: true
   name: Skromne Carrasco, Sofia
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:FormalAnalysis
+  - dcite:Researcher
+  - dcite:Visualization
+  - dcite:Validation
   schemaKey: Person
-- {}
-- {}
+- affiliation:
+  - identifier: https://ror.org/00sekdz59
+    name: Flatiron Institute
+    schemaKey: Affiliation
+  email: gviejo@flatironinstitute.org
+  identifier: 0000-0002-2450-7397
+  includeInCitation: true
+  name: Viejo, Guillaume
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:FormalAnalysis
+  - dcite:Methodology
+  - dcite:Conceptualization
+  - dcite:Researcher
+  - dcite:Visualization
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01pxwe438
+    name: McGill University
+    schemaKey: Affiliation
+  email: adrien.peyrache@mcgill.ca
+  identifier: 0000-0001-9708-309X
+  includeInCitation: true
+  name: Peyrache, Adrien
+  roleName:
+  - dcite:Author
+  - dcite:ProjectLeader
+  - dcite:Supervision
+  schemaKey: Person
+  url: https://peyrachelab.com
 dateCreated: '2025-12-01T16:54:50.900169+00:00'
 description: 'This Dandiset includes longitudinal 1-photon imaging (UCLA miniscope)
   recordings in the Postsubiculum of freely-moving mice. All sessions are part of
@@ -52,13 +95,18 @@ name: Months-long stability of the head-direction system
 protocol:
 - https://www.biorxiv.org/content/10.1101/2024.06.13.598909v1
 relatedResource:
-- {}
+- identifier: Associated publication
+  name: Months-long stability of the head-direction system
+  relation: dcite:IsPublishedIn
+  repository: BIORXIV
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2024.06.13.598909v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 studyTarget:
-- Stability of Head-Direction Cells over long periods of time
+- Representational stability
 url: https://dandiarchive.org/dandiset/001676/draft
 version: draft
-wasGeneratedBy:
-- {}
+wasGeneratedBy: []
