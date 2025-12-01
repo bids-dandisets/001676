@@ -23,6 +23,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 - {}
+- {}
 dateCreated: '2025-12-01T16:54:50.900169+00:00'
 description: 'This Dandiset includes longitudinal 1-photon imaging (UCLA miniscope)
   recordings in the Postsubiculum of freely-moving mice. All sessions are part of
@@ -30,7 +31,13 @@ description: 'This Dandiset includes longitudinal 1-photon imaging (UCLA minisco
   where the environment changes every two weeks, probe test of the memory of orientation
   following the two-month experiment, random visits of four environments over four
   weeks, and sparse explorations of two environments over five weeks.'
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    email: acc.mni@mcgill.ca
+    schemaKey: ContactPoint
+    url: https://www.mcgill.ca/neuro/research/animal-care-committee
+  identifier: MNI-7839
+  schemaKey: EthicsApproval
 id: DANDI:001676/draft
 identifier: DANDI:001676
 keywords:
@@ -44,7 +51,8 @@ manifestLocation:
 name: Months-long stability of the head-direction system
 protocol:
 - https://www.biorxiv.org/content/10.1101/2024.06.13.598909v1
-relatedResource: []
+relatedResource:
+- {}
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
@@ -52,4 +60,5 @@ studyTarget:
 - Stability of Head-Direction Cells over long periods of time
 url: https://dandiarchive.org/dandiset/001676/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- {}
