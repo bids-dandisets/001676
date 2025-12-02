@@ -149,7 +149,9 @@ description: 'This Dandiset includes longitudinal 1-photon imaging (UCLA minisco
   one of five longitudinal experiments: one month in a single environment, two months
   where the environment changes every two weeks, probe test of the memory of orientation
   following the two-month experiment, random visits of four environments over four
-  weeks, and sparse explorations of two environments over five weeks.'
+  weeks, and sparse explorations of two environments over five weeks.  The Dandiset
+  also includes electrophysiological recordings from four animals exploring three
+  enviroments in a single day.'
 ethicsApproval:
 - contactPoint:
     email: acc.mni@mcgill.ca
