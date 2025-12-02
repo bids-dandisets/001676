@@ -8,9 +8,43 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 50935091520
+  numberOfFiles: 406
+  numberOfSubjects: 14
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Position
+  - OpticalChannel
+  - ProcessingModule
+  - SpatialSeries
+  - ImagingPlane
+  - PlaneSegmentation
+  - ElectrodeGroup
+  - Units
 citation: Skromne Carrasco, Sofia; Viejo, Guillaume; Peyrache, Adrien (2025) Months-long
   stability of the head-direction system (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001676/draft
