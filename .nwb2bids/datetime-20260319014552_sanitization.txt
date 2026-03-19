@@ -1,0 +1,1 @@
+{"sanitization_config":{"sub_labels":false,"ses_labels":false},"sanitization_file_path":"/data/dandi/bids-dandisets/work/001676/.nwb2bids/datetime-20260319014552_sanitization.txt","original_participant_id":"A8618","original_session_id":"A8618-220725","sanitized_participant_id":"A8618","sanitized_session_id":"A8618-220725"}
