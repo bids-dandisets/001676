@@ -1,5 +1,5 @@
-participant_id	species	sex
-sub-A8608	Mus musculus	M
-sub-A8613	Mus musculus	M
-sub-A8616	Mus musculus	M
-sub-A8618	Mus musculus	M
+participant_id	original_participant_id	species	sex
+sub-A8608	sub-A8608	Mus musculus	M
+sub-A8613	sub-A8613	Mus musculus	M
+sub-A8616	sub-A8616	Mus musculus	M
+sub-A8618	sub-A8618	Mus musculus	M
